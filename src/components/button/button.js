@@ -1,3 +1,7 @@
+import './button.css'
+
 const Button = () => {
-    return <button>clique aqui</button>
+    return <button className="btn">clique aqui</button>
 }
+
+export default Button
