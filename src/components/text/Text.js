@@ -4,8 +4,7 @@ const Text = (props) => {
   const style = {
     color: props.color,
     textTransform: 'uppercase',
-    
-  }
+    }
 
     return (
         <div className='text'>
