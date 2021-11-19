@@ -1,15 +1,13 @@
-import Button from './components/button/button'
-import Card from './components/card/card';
-import './App.css';
+import Text from './components/text/Text.js'
+import Button from './components/button/Button.js';
+import './App.css'
 
 function App() {
-  return (
+ 
+   return (
     <>
-    <Button />
-    <Button />
-    <Card title="titulo card 1" />
-    <Card title="titulo card 2" />
-    <Card title="titulo card 3" />
+   <Text color='red' />
+   <Button label="eu sou uma label" />
     </>
   );
 }

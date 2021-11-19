@@ -1,7 +1,13 @@
-import './button.css'
+import React from "react";
 
-const Button = () => {
-    return <button className="btn">clique aqui</button>
-}
+const Button = (props) => {    
 
-export default Button
+    function showLabel(){
+        alert(`a label do botão é = ${props.label}`)
+    }
+
+      return (<button onClick={showLabel}>Ver Label</button>)
+ }
+  
+  
+  export default Button
